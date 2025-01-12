@@ -6,7 +6,7 @@ import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
 // 个人主页
 const home = {
     name: "My Blog",
-    link: "https://junyaohu.github.io/",
+    link: "https://hxiangdou.github.io/",
 }
 
 // 项目主页
@@ -57,7 +57,7 @@ const more_paper = {
         </el-menu-item>
 
         <!-- 更多栏目 -->
-        <el-sub-menu index="2">
+        <!-- <el-sub-menu index="2">
             <template #title>More</template>
             <el-menu-item index="2-1">
                 <a :href=more_paper.ExtDM.link>{{ more_paper.ExtDM.name }}</a>
@@ -68,7 +68,7 @@ const more_paper = {
             <el-menu-item index="2-3">
                 <a :href=more_paper.ControlNet.link>{{ more_paper.ControlNet.name }}</a>
             </el-menu-item>
-        </el-sub-menu>
+        </el-sub-menu> -->
 
     </el-menu>
     </el-affix>
