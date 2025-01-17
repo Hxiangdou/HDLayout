@@ -26,7 +26,7 @@ const authors = [
   {
     name: "Tonghui Feng",
     icon: "",
-    homepage: "https://hxiangdou.github.io/about",
+    homepage: "https://hxiangdou.github.io/thfeng",
     address_flag: "1"
   },
   {
