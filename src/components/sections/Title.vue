@@ -25,32 +25,32 @@ const btn_color = '#444444'
 const authors = [
   {
     name: "Tonghui Feng",
-    // icon: "",
-    // homepage: "https://hxiangdou.github.io/",
+    icon: "",
+    homepage: "https://hxiangdou.github.io/about",
     address_flag: "1"
   },
   {
     name: "Chunsheng Yan",
-    // icon: "",
-    // homepage: "",
+    icon: "",
+    homepage: "",
     address_flag: "2"
   },
   {
     name: "Qianru Wang",
-    // icon: "",
-    // homepage: "",
+    icon: "",
+    homepage: "",
     address_flag: "1"
   },
   {
     name: "Jiangtao Cui",
-    // icon: "",
-    // homepage: "",
+    icon: "",
+    homepage: "",
     address_flag: "1"
   },
   {
     name: "Xiaotian Qiao",
-    // icon: "",
-    // homepage: "",
+    icon: "",
+    homepage: "",
     address_flag: "1,2,*"
   },
 ]
