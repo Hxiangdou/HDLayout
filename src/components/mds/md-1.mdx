@@ -1,0 +1,43 @@
+# Method
+
+### Visual Text Generation Architecture
+The process begins with extracting textual information from the input prompt, which is then used by the *T2I generation module* to create a background image based on a predefined diffusion model. 
+This background image is passed to the *HDLayout generation module*, which progressively refines hierarchical and directional text layout information from coarse to fine, encompassing region-level, line-level, and character-level details, while adjusting the layout according to the textual input. 
+Finally, the *Visual Text Render Module* combines the background image and HDLayout information to render the final visual text image, leveraging fine-tuned diffusion models to ensure high-quality output. 
+Notably, both the *T2I generation module* and the *Visual Text Render Module* are designed to be flexible, allowing for seamless replacement with evolving T2I models to adapt to future advancements in the field.
+
+<img 
+  src="./total-pipeline.png" 
+  alt="" 
+  style="
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: block; 
+    margin: 0 auto;
+  "
+/>
+
+### HDLayout Generation Module
+The HDLayout generation module begins by extracting image features from the input background image using a backbone network. 
+It then refines the hierarchical and directional text layout progressively across three levels: region-level, line-level, and character-level. 
+At each level, a consistent architecture combining self-attention, cross-attention, MLPs, and linear layers is employed, with features from the previous level passed as prior knowledge to guide the next level's refinement. 
+Region-level and line-level layouts are represented using rectangular bounding boxes to capture the overall text structure, while character-level details are modeled using Bezier curves to handle complex and arbitrary text shapes. 
+This hierarchical approach ensures accurate representation of both large-scale text regions and fine-grained text variations, resulting in natural and realistic scene text images.
+
+<img 
+  src="./detail-pipeline.png" 
+  alt="" 
+  style="
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: block; 
+    margin: 0 auto;
+  "
+/>
+
+
+

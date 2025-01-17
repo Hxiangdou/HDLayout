@@ -16,12 +16,18 @@ import Comment from './sections/Comment.vue'
 import Latex from './sections/Latex.vue'
 import Model3D from './sections/Model3D.vue'
 import GaussianSplats3D from './sections/GaussianSplats3D.vue'
+import Markdown1 from './sections/Markdown-1.vue'
+import Markdowndataset from './sections/Markdown-dataset.vue'
+import Markdownqualitative from './sections/Markdown-qualitative.vue'
 
 export default {
   components: {
     Title,
     Abstract,
     Markdown,
+    Markdown1,
+    Markdowndataset,
+    Markdownqualitative,
     BibTeX,
     Carousel,
     Video,
@@ -42,10 +48,13 @@ export default {
 
 <template>
   <Title/>
-  <Carousel/>
+  <!-- <Carousel/> -->
   <!-- <Video/> -->
+  <Markdown/>
   <Abstract/>
-  <!-- <Markdown/> -->
+  <Markdown-1/>
+  <Markdownqualitative/>
+  <Markdowndataset/>
   <!-- <Latex/> -->
   <!-- <Table/> -->
   <!-- <Collapse/> -->
@@ -57,5 +66,5 @@ export default {
   <!-- <ImageSlider/> -->
   <!-- <ImageSelector/> -->
   <BibTeX/>
-  <!-- <Comment/> -->
+
 </template>

@@ -24,22 +24,34 @@ const btn_color = '#444444'
 // 作者清单（包含作者姓名、头像、主页、地址序号）
 const authors = [
   {
-    name: "Your Name",
-    icon: "./icon/junyaohu.jpg",
-    homepage: "https://junyaohu.github.io/",
-    address_flag: "1,#"
+    name: "Tonghui Feng",
+    // icon: "",
+    // homepage: "https://hxiangdou.github.io/",
+    address_flag: "1"
   },
   {
-    name: "Anya Forger",
-    icon: "./icon/anya.jpg",
-    homepage: "https://www.bilibili.com/video/BV1jv4y1P7Bb",
-    address_flag: "2,#"
+    name: "Chunsheng Yan",
+    // icon: "",
+    // homepage: "",
+    address_flag: "2"
   },
   {
-    name: "BugCat Capoo",
-    icon: "./icon/capoo.webp",
-    homepage: "https://zh.moegirl.org.cn/%E7%8C%AB%E7%8C%AB%E8%99%AB%E5%92%96%E6%B3%A2",
-    address_flag: "1,*"
+    name: "Qianru Wang",
+    // icon: "",
+    // homepage: "",
+    address_flag: "1"
+  },
+  {
+    name: "Jiangtao Cui",
+    // icon: "",
+    // homepage: "",
+    address_flag: "1"
+  },
+  {
+    name: "Xiaotian Qiao",
+    // icon: "",
+    // homepage: "",
+    address_flag: "1,2,*"
   },
 ]
 
@@ -47,21 +59,21 @@ const authors = [
 const addresses = [
   {
     address_flag: "1",
-    name: "Home University",
-    icon: "./icon/home.png",
-    homepage: "https://github.com/hmuniversity"
+    name: "School of Computer Science and Technology, Xidian University, China",
+    icon: "",
+    homepage: ""
   },
   {
     address_flag: "2",
-    name: "IKUN University",
-    icon: "./icon/ikun.avif",
-    homepage: "https://www.bilibili.com/video/BV178411Y7QB"
+    name: "Guangzhou Institute of Technology, Xidian University, China",
+    icon: "",
+    homepage: ""
   },
 ]
 
 // 共一和通讯提示
-const con_and_corresponding_author = 
-  "#: Equal Contribution. *: Corresponding Author."
+// const con_and_corresponding_author = 
+//   "*: Corresponding Author."
 
 // 最新消息
 const news = "🔥 [2024-12-15] This template project is still under development."
@@ -80,21 +92,10 @@ const buttons = [
   },
   {
     disabled: true,
-    name: "中译版",
-    component: Document,
-  },
-  {
-    disabled: false,
     name: "Code",
-    link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
+    link: "",
     component: Files,
   },
-  // {
-  //   disabled: false,
-  //   name: "Demo",
-  //   link: "https://junyaohu.github.io/academic-project-page-template-vue",
-  //   component: MagicStick,
-  // },
   {
     disabled: true,
     name: "Poster",
@@ -105,16 +106,10 @@ const buttons = [
     name: "Slide",
     component: DataAnalysis,
   },
-  // {
-  //   disabled: false,
-  //   name: "Video (减论)",
-  //   link: "https://www.bilibili.com/video/BV15XkgYiE73/",
-  //   component: Film,
-  // },
   {
-    disabled: false,
+    disabled: true,
     name: "Video (Tutorial)",
-    link: "https://www.bilibili.com/video/BV1oUrfYzEqZ",
+    link: "",
     component: Film,
   },
 ]
@@ -171,9 +166,9 @@ const buttons = [
     </el-row>
 
     <!-- 共一和通讯提示内容 -->
-    <el-row justify="center" class="con-cor">
+    <!-- <el-row justify="center" class="con-cor">
         {{ con_and_corresponding_author }}
-    </el-row>
+    </el-row> -->
 
     <!-- 强调内容 -->
     <el-row justify="center" class="emphasis" v-for="emphasis in emphases">

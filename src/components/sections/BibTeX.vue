@@ -3,11 +3,11 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
+        "@inproceedings{feng2025hdlayout,",
+        "    title={HDLayout: Hierarchical and Directional Layout Planning for Arbitrary Shaped Visual Text Generation},",
+        "    author={Tonghui, Feng and Chunsheng, Yan and Qianru, Wang and Jiangtao, Cui and Xiaotian, Qiao},",
+        "    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},",
+        "    year={2025}",
         "}",
       ],
     }
