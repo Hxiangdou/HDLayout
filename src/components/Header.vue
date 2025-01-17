@@ -6,7 +6,7 @@ import { HomeFilled, SuccessFilled } from '@element-plus/icons-vue'
 // 个人主页
 const home = {
     name: "My Blog",
-    link: "https://hxiangdou.github.io/about/",
+    link: "https://hxiangdou.github.io/thfeng/",
 }
 
 // 项目主页
