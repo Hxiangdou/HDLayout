@@ -88,7 +88,7 @@ const buttons = [
   {
     disabled: false,
     name: "Paper",
-    link: "https://github.com/Hxiangdou/HDLayout/src/assets/paper/AAAI25_CRC.out250103.pdf",
+    link: "https://github.com/Hxiangdou/HDLayout/blob/main/src/assets/paper/AAAI25_CRC.out250103.pdf",
     component: Document,
   },
   {
@@ -100,7 +100,7 @@ const buttons = [
   {
     disabled: false,
     name: "Poster",
-    link: "https://github.com/Hxiangdou/HDLayout/src/assets/paper/Poster.pdf",
+    link: "https://github.com/Hxiangdou/HDLayout/blob/main/src/assets/paper/Poster.pdf",
     component: Picture,
   },
   {
