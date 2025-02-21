@@ -51,7 +51,7 @@ const authors = [
     name: "Xiaotian Qiao",
     icon: "",
     homepage: "",
-    address_flag: "1,2,*"
+    address_flag: "1,2 *"
   },
 ]
 
@@ -80,14 +80,15 @@ const news = "🔥 [2024-12-15] This template project is still under development
 
 // 强调内容
 const emphases = [
-  "🎉 [AAAI 2025] Poster",
+  "AAAI 2025",
 ]
 
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper",
+    link: "https://github.com/Hxiangdou/HDLayout/src/assets/paper/AAAI25_CRC.out250103.pdf",
     component: Document,
   },
   {
@@ -97,19 +98,15 @@ const buttons = [
     component: Files,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Poster",
+    link: "https://github.com/Hxiangdou/HDLayout/src/assets/paper/Poster.pdf",
     component: Picture,
   },
   {
-    disabled: true,
-    name: "Slide",
-    component: DataAnalysis,
-  },
-  {
-    disabled: true,
-    name: "Video (Tutorial)",
-    link: "",
+    disabled: false,
+    name: "Video",
+    link: "https://youtu.be/T5ntPaoNztg",
     component: Film,
   },
 ]
