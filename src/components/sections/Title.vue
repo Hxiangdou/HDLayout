@@ -92,9 +92,9 @@ const buttons = [
     component: Document,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Code",
-    link: "",
+    link: "https://github.com/IMU-Group/HDLayout",
     component: Files,
   },
   {
