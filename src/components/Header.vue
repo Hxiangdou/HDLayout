@@ -12,7 +12,7 @@ const home = {
 // 项目主页
 const logo = {
     name: "Project",
-    link: "#",
+    link: "https://github.com/IMU-Group/HDLayout",
 }
 
 // 右侧更多菜单
