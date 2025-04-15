@@ -4,11 +4,13 @@ export default {
     return {
       bibtex: [
         "@inproceedings{feng2025hdlayout,",
-        "    title={HDLayout: Hierarchical and Directional Layout Planning for Arbitrary Shaped Visual Text Generation},",
-        "    author={Tonghui, Feng and Chunsheng, Yan and Qianru, Wang and Jiangtao, Cui and Xiaotian, Qiao},",
-        "    booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},",
-        "    year={2025}",
-        "}",
+        "  title={HDLayout: Hierarchical and Directional Layout Planning for Arbitrary Shaped Visual Text Generation},",
+        "  author={Feng, Tonghui and Yan, Chunsheng and Wang, Qianru and Cui, Jiangtao and Qiao, Xiaotian},",
+        "  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},",
+        "  volume={39},",
+        "  number={3},",
+        "  pages={2996--3003},",
+        "  year={2025}"
       ],
     }
   },
